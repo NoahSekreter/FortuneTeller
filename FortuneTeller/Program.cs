@@ -18,7 +18,7 @@ namespace FortuneTeller
             float money = 0;
             while (true)
             {
-                Console.WriteLine("Welcome to the magically abusive fortune teller!\nIf you want to quit, just type in \"Quit\" you pansy.\nAnd good luck making me crash! You won't be able to no matter what you do!");
+                Console.WriteLine("Welcome to the magically abusive fortune teller!\nIf you want to quit, just type in \"Quit\" you quiter.\nAnd good luck making me crash! You won't be able to no matter what you do!");
 
                 //First Name
                 Console.Write("What... is your first name? ");
@@ -197,7 +197,7 @@ namespace FortuneTeller
                     Console.WriteLine();
             }
             if (check.ToLower() == "quit")
-                Console.WriteLine("You quit?! What a pansy! Nobody likes a quiter!");
+                Console.WriteLine("You quit?! Of course you did! Nobody likes a quiter!");
         }
         static bool IsNumber(string str)
         {
